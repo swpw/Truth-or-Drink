@@ -1,0 +1,306 @@
+.mainMenu
+  width: inherit
+  height: inherit
+  +min(768)
+    display: flex
+
+
+
+  +e('imageContainer')
+    +min(768)
+      position: relative
+      width: 50%
+      height: inherit
+      background: url('https://cdn.discordapp.com/attachments/699670188311707761/926277222384431114/bg-mobile.png') no-repeat
+      background-size: 200%
+      background-position: center center
+      &::after
+        content: ''
+        position: absolute
+        bottom: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background: #91BFE6
+        z-index: -1
+  +e('sectionContent')
+    width: inherit
+    height: inherit
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    background: url('https://cdn.discordapp.com/attachments/699670188311707761/926279441217364049/Group_22.png') no-repeat
+    background-size: cover
+    background-position: center 35vh
+    +min(768)
+      width: 50%
+      background: transparent
+    &::after
+      content: ''
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
+      height: 35vh
+      background: #91BFE6
+      z-index: -1
+      +min(768)
+        display: none
+
+
+
+  +e('sectionTop')
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-bottom: 60px
+    +min(768)
+      margin-bottom: 90px
+  +e('title')
+    font-family: $font1
+    font-style: normal
+    font-weight: bold
+    font-size: 52px
+    letter-spacing: -0.05em
+    text-align: center
+    color: #111111
+    margin-bottom: 60px
+    +min(375)
+      font-size: 60px
+    +min(768)
+      margin-bottom: 90px
+    +min(1024)
+      font-size: 80px
+    +min(1200)
+      font-size: 90px
+    +min(1600)
+      font-size: 120px
+  +e('paragraphCatchphrase')
+    font-style: normal
+    font-weight: 500
+    font-size: 26px
+    text-align: center
+    color: #333333
+    margin-bottom: 30px
+    +min(375)
+      font-size: 28px
+    +min(1024)
+      font-size: 35px
+    +min(1200)
+      font-size: 40px
+    +min(1600)
+      font-size: 45px
+  +e('paragraphDescription')
+    width: 90%
+    font-style: normal
+    font-weight: 400
+    font-size: 15px
+    line-height: 23px
+    text-align: center
+    color: #333333
+    +min(375)
+      width: 315px
+      font-size: 17px
+      line-height: 25px
+    +min(768)
+      width: 296px
+    +min(1024)
+      width: 378px
+    +min(1200)
+      width: 422px
+    +min(1600)
+      width: 475px
+      font-size: 22px
+      line-height: 32.5px
+      
+
+  
+  +e('sectionBot')
+    display: flex
+    flex-direction: column
+    align-items: center
+    +min(1024)
+      flex-direction: row
+  +e('button')
+    width: 270px
+    height: 60px
+    background: #111111
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25)
+    border-radius: 5px
+    border: none
+    font-style: normal
+    font-weight: 900
+    font-size: 27px
+    text-align: center
+    color: #FFFFFF
+    cursor: pointer
+    &:first-of-type
+      margin-bottom: 50px
+      +min(768)
+        margin-bottom: 30px
+      +min(1024)
+        margin-bottom: 0
+        margin-right: 50px
+      +min(1200)
+        margin-right: 60px
+    +min(768)
+      width: auto
+      padding: 0 25px
+    +min(1024)
+      height: 44px
+      font-size: 20px
+    +min(1600)
+      height: 52px
+      font-size: 27px
+
+
+
+@media (max-height: 599px)and (max-width: 374px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 45px
+    +e('sectionTop')
+      margin-bottom: 45px
+    +e('button')
+      height: 44px
+      width: 250px
+      font-size: 20px
+      &:first-of-type
+        margin-bottom: 30px
+
+@media (max-height: 649px) and (min-width: 375px) and (max-width: 767px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 45px
+    +e('sectionTop')
+      margin-bottom: 45px
+    +e('button')
+      height: 44px
+      width: 250px
+      font-size: 20px
+      &:first-of-type
+        margin-bottom: 30px
+
+@media (max-height: 570px) and (min-width: 375px) and (max-width: 767px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 45px
+      font-size: 52px
+    +e('paragraphCatchphrase')
+      font-size: 26px
+    +e('paragraphDescription')
+      font-size: 15px
+      line-height: 23px
+    +e('sectionTop')
+      margin-bottom: 45px
+    +e('button')
+      height: 44px
+      width: 250px
+      font-size: 20px
+      &:first-of-type
+        margin-bottom: 30px
+
+@media (max-height: 699px) and (min-width: 768px) and (max-width: 1023px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 45px
+    +e('sectionTop')
+      margin-bottom: 45px
+    +e('button')
+      height: 44px
+      width: 250px
+      font-size: 20px
+      &:first-of-type
+        margin-bottom: 30px
+
+@media (max-height: 599px) and (min-width: 768px) and (max-width: 1023px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 45px
+      font-size: 52px
+    +e('paragraphCatchphrase')
+      font-size: 26px
+    +e('paragraphDescription')
+      font-size: 15px
+      line-height: 23px
+    +e('sectionTop')
+      margin-bottom: 45px
+    +e('button')
+      height: 44px
+      width: 250px
+      font-size: 20px
+      &:first-of-type
+        margin-bottom: 30px
+
+@media (max-height: 699px) and (min-width: 1024px) and (max-width: 1199px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 60px
+    +e('sectionTop')
+      margin-bottom: 60px
+
+@media (max-height: 599px) and (min-width: 1024px) and (max-width: 1199px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 45px
+      font-size: 60px
+    +e('paragraphCatchphrase')
+      font-size: 28px
+    +e('paragraphDescription')
+      font-size: 17px
+      line-height: 25px
+    +e('sectionTop')
+      margin-bottom: 45px
+
+@media (max-height: 699px) and (min-width: 1200px) and (max-width: 1599px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 60px
+    +e('sectionTop')
+      margin-bottom: 60px
+
+@media (max-height: 599px) and (min-width: 1200px) and (max-width: 1599px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 45px
+      font-size: 80px
+    +e('paragraphCatchphrase')
+      font-size: 35px
+    +e('sectionTop')
+      margin-bottom: 45px
+
+@media (max-height: 749px) and (min-width: 1600px)
+  .mainMenu
+    +e('title')
+      font-size: 90px
+    +e('paragraphCatchphrase')
+      font-size: 40px
+    +e('button')
+      height: 44px
+      font-size: 20px
+
+@media (max-height: 699px) and (min-width: 1600px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 60px
+    +e('sectionTop')
+      margin-bottom: 60px
+
+@media (max-height: 649px) and (min-width: 1600px)
+  .mainMenu
+    +e('title')
+      font-size: 80px
+    +e('paragraphCatchphrase')
+      font-size: 35px
+    +e('paragraphDescription')
+      font-size: 17px
+      line-height: 25px
+
+@media (max-height: 599px) and (min-width: 1600px)
+  .mainMenu
+    +e('title')
+      margin-bottom: 45px
+    +e('sectionTop')
+      margin-bottom: 45px

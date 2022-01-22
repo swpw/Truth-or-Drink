@@ -1,0 +1,795 @@
+{
+  "Easy": [
+    {
+      "id": 0,
+      "en": "What’s your most shallow reason for not going on a second date?",
+      "pl": "Jaki jest Twój najbardziej płytki powód, dla którego nie idziesz na drugą randkę?"
+    },
+    {
+      "id": 1,
+      "en": "What’s the worst date you’ve ever had?",
+      "pl": "Jaka jest najgorsza randka, na jakiej byłeś?"
+    },
+    {
+      "id": 2,
+      "en": "What’s your worst habit?",
+      "pl": "Jaki jest twój najgorszy nawyk?"
+    },
+    {
+      "id": 3,
+      "en": "Name something illegal that you’ve done and regret.",
+      "pl": "Wymień coś nielegalnego, co zrobiłeś i czego żałujesz."
+    },
+    {
+      "id": 4,
+      "en": "Tell about the biggest ticket you’ve ever gotten.",
+      "pl": "Opowiedz o największym mandacie, jaki kiedykolwiek dostałeś."
+    },
+    {
+      "id": 5,
+      "en": "How many people in the room would you be willing to kiss?",
+      "pl": "Z iloma osobami w tym pokoju byłbyś skłonny się pocałować?"
+    },
+    {
+      "id": 6,
+      "en": "What’s the weirdest dream you’ve ever had?",
+      "pl": "Jaki jest najdziwniejszy sen, jaki kiedykolwiek miałeś?"
+    },
+    {
+      "id": 7,
+      "en": "What do you wear when you’re hoping to go home with someone?",
+      "pl": "W co się ubierasz, kiedy masz nadzieję, że wrócisz z kimś do domu?"
+    },
+    {
+      "id": 8,
+      "en": "What kind of underwear do you wear?",
+      "pl": "Jaki rodzaj bielizny nosisz?"
+    },
+    {
+      "id": 9,
+      "en": "What’s your dream first date?",
+      "pl": "Jaka jest twoja wymarzona pierwsza randka?"
+    },
+    {
+      "id": 10,
+      "en": "What would make you immediately swipe right?",
+      "pl": "Co sprawiłoby, że natychmiast przesunąłbyś się w prawo?"
+    },
+    {
+      "id": 11,
+      "en": "What would make you immediately swipe left?",
+      "pl": "Co sprawiłoby, że natychmiast machnąłbyś ręką w lewo?"
+    },
+    {
+      "id": 12,
+      "en": "Have you ever cheated or helped someone else cheat?",
+      "pl": "Czy kiedykolwiek oszukiwałeś lub pomagałeś komuś innemu oszukiwać?"
+    },
+    {
+      "id": 13,
+      "en": "Have you ever gotten in a physical altercation with someone?",
+      "pl": "Czy kiedykolwiek wdałeś się z kimś w fizyczną sprzeczkę?"
+    },
+    {
+      "id": 14,
+      "en": "What’s your longest relationship?",
+      "pl": "Jaki jest Twój najdłuższy związek?"
+    },
+    {
+      "id": 15,
+      "en": "Have you ever had a secret relationship?",
+      "pl": "Czy kiedykolwiek byłeś/byłaś w sekretnym związku?"
+    },
+    {
+      "id": 16,
+      "en": "Have you ever kissed anyone in this room?",
+      "pl": "Czy kiedykolwiek pocałowałeś kogoś w tym pokoju?"
+    },
+    {
+      "id": 17,
+      "en": "What’s your favorite drink?",
+      "pl": "Jaki jest twój ulubiony napój?"
+    },
+    {
+      "id": 18,
+      "en": "What’s the biggest lie you’ve ever told?",
+      "pl": "Jakie jest największe kłamstwo, jakie kiedykolwiek powiedziałeś?"
+    },
+    {
+      "id": 19,
+      "en": "What do your current undergarments look like?",
+      "pl": "Jak wygląda Twoja obecna bielizna?"
+    },
+    {
+      "id": 20,
+      "en": "Would you ever hook-up with someone else’s partner?",
+      "pl": "Czy kiedykolwiek spiknąłbyś się z czyimś partnerem?"
+    },
+    {
+      "id": 21,
+      "en": "Do you cover your eyes during the scary part of a movie?",
+      "pl": "Czy zasłaniasz oczy podczas przerażającej części filmu?"
+    },
+    {
+      "id": 22,
+      "en": "If you suddenly became invisible, what would you do with your newfound transparency?",
+      "pl": "Gdybyś nagle stał się niewidzialny, co byś zrobił ze swoją nowo odkrytą przezroczystością?"
+    },
+    {
+      "id": 23,
+      "en": "Have you ever wanted to try LARP (live-action role play)?",
+      "pl": "Czy kiedykolwiek chciałeś spróbować LARP-a (live-action role play)?"
+    },
+    {
+      "id": 24,
+      "en": "Who is your favorite family member?",
+      "pl": "Kto jest Twoim ulubionym członkiem rodziny?"
+    },
+    {
+      "id": 25,
+      "en": "What is the biggest secret you’ve kept from your parents when you were growing up?",
+      "pl": "Jaki jest największy sekret, który ukrywałeś przed rodzicami, kiedy dorastałeś?"
+    },
+    {
+      "id": 26,
+      "en": "Tell us about the last dream you can remember. Don’t leave any details out!",
+      "pl": "Opowiedz nam o ostatnim śnie, który pamiętasz. Nie pomijaj żadnych szczegółów!"
+    },
+    {
+      "id": 27,
+      "en": "Have you ever lied about being sick so you could stay home from work or school?",
+      "pl": "Czy kiedykolwiek skłamałeś, że jesteś chory, aby móc zostać w domu w pracy lub w szkole?"
+    },
+    {
+      "id": 28,
+      "en": "Have you ever told someone you wouldn’t be home just so they wouldn’t come over to yours?",
+      "pl": "Czy kiedykolwiek powiedziałeś komuś, że nie będzie Cię w domu tylko po to, żeby nie przyszedł do Ciebie?"
+    },
+    {
+      "id": 29,
+      "en": "If anyone in your family could win an award for being the most annoying, who would it be?",
+      "pl": "Gdyby ktoś w Twojej rodzinie mógł wygrać nagrodę za bycie najbardziej irytującym, kto by to był?"
+    },
+    {
+      "id": 30,
+      "en": "Have you ever bought something to wear to an event, and then returned it to the store when the event was over?",
+      "pl": "Czy kiedykolwiek kupiłeś/aś coś, aby założyć to na imprezę, a potem zwróciłeś/aś to do sklepu, kiedy impreza się skończyła?"
+    },
+    {
+      "id": 31,
+      "en": "Did you ever break up with someone just before a public holiday so that you didn’t have to buy them a gift?",
+      "pl": "Czy zdarzyło Ci się kiedyś zerwać z kimś tuż przed świętem państwowym, żeby nie musieć kupować mu prezentu?"
+    },
+    {
+      "id": 32,
+      "en": "What is your least favorite part about family gatherings?",
+      "pl": "Jaka jest Twoja najmniej ulubiona część spotkań rodzinnych?"
+    },
+    {
+      "id": 33,
+      "en": "What is your favorite movie that you secretly know is actually terrible?",
+      "pl": "Jaki jest Twój ulubiony film, o którym w tajemnicy wiesz, że jest tak naprawdę okropny?"
+    },
+    {
+      "id": 34,
+      "en": "Have you ever bribed or flirted with a police officer to get out of a ticket?",
+      "pl": "Czy kiedykolwiek przekupywałeś lub flirtowałeś z policjantem, aby wywinąć się od mandatu?"
+    },
+    {
+      "id": 35,
+      "en": "Do you have a bucket list? If so, what is one thing on that list?",
+      "pl": "Czy masz listę rzeczy do zrobienia? Jeśli tak, co jest jedną z rzeczy na tej liście?"
+    },
+    {
+      "id": 36,
+      "en": "What is the strangest thing you have ever bought?",
+      "pl": "Jaka jest najdziwniejsza rzecz, jaką kiedykolwiek kupiłeś?"
+    },
+    {
+      "id": 37,
+      "en": "Have you ever shared chewing gum with anyone?",
+      "pl": "Czy kiedykolwiek podzieliłeś się z kimś gumą do żucia?"
+    },
+    {
+      "id": 38,
+      "en": "Have you ever danced on a table when you were drunk?",
+      "pl": "Czy kiedykolwiek tańczyłeś na stole, kiedy byłeś pijany?"
+    },
+    {
+      "id": 39,
+      "en": "What is the one thing you dislike about yourself?",
+      "pl": "Jaka jest jedna rzecz, której w sobie nie lubisz?"
+    },
+    {
+      "id": 40,
+      "en": "What is the one thing you really like about yourself?",
+      "pl": "Jaka jest jedna rzecz, którą naprawdę w sobie lubisz?"
+    },
+    {
+      "id": 41,
+      "en": "If you could hire someone to do one thing for you, what would it be?",
+      "pl": "Gdybyś mógł zatrudnić kogoś, by zrobił dla Ciebie jedną rzecz, co by to było?"
+    },
+    {
+      "id": 42,
+      "en": "What was the most embarrassing thing that you ever did while on a date?",
+      "pl": "Jaka była najbardziej żenująca rzecz, którą kiedykolwiek zrobiłeś na randce?"
+    },
+    {
+      "id": 43,
+      "en": "What is your biggest pet peeve?",
+      "pl": "Jaka jest twoja największa irytująca drobnostka?"
+    }
+  ],
+  "Medium": [
+    {
+      "id": 0,
+      "en": "What’s your “number?”",
+      "pl": "Jaki jest twój \"numer\"?"
+    },
+    {
+      "id": 1,
+      "en": "What’s the shortest amount of time you’ve known someone before hooking up?",
+      "pl": "Jaki jest najkrótszy okres czasu, w którym znałeś kogoś, zanim się spiknąłeś?"
+    },
+    {
+      "id": 2,
+      "en": "Where is the grossest place you’ve ever hooked up?",
+      "pl": "Gdzie jest najobrzydliwsze miejsce, w którym kiedykolwiek się spiknąłeś?"
+    },
+    {
+      "id": 3,
+      "en": "How far have you gone in public?",
+      "pl": "Jak daleko posunąłeś się w miejscach publicznych?"
+    },
+    {
+      "id": 4,
+      "en": "What’s the biggest age gap you’ve had with a partner?",
+      "pl": "Jaka jest największa różnica wieku, jaką miałeś z partnerem?"
+    },
+    {
+      "id": 5,
+      "en": "What sex act are you best at?",
+      "pl": "W jakim akcie seksualnym jesteś najlepszy?"
+    },
+    {
+      "id": 6,
+      "en": "What sex act are you bad at?",
+      "pl": "W jakim akcie seksualnym jesteś kiepski?"
+    },
+    {
+      "id": 7,
+      "en": "What’s your longest dry spell?",
+      "pl": "Jaki jest twój najdłuższy okres bezsenności?"
+    },
+    {
+      "id": 8,
+      "en": "How many people in this room would you be willing to hook up with?",
+      "pl": "Z iloma osobami w tym pokoju byłbyś skłonny się umówić?"
+    },
+    {
+      "id": 9,
+      "en": "Who is the most inappropriate person you’ve ever had a crush on?",
+      "pl": "Kto jest najbardziej nieodpowiednią osobą, w której kiedykolwiek się podkochiwałeś?"
+    },
+    {
+      "id": 10,
+      "en": "Tell us your most embarrassing vomit story.",
+      "pl": "Opowiedz nam swoją najbardziej żenującą historię o wymiotach."
+    },
+    {
+      "id": 11,
+      "en": "Have you ever sexted?",
+      "pl": "Czy kiedykolwiek wysyłałeś/aś sms-y?"
+    },
+    {
+      "id": 12,
+      "en": "What’s the dirtiest text you’ve ever received?",
+      "pl": "Jaki jest najbrudniejszy tekst, jaki kiedykolwiek otrzymałeś?"
+    },
+    {
+      "id": 13,
+      "en": "What’s your favorite position?",
+      "pl": "Jaka jest twoja ulubiona pozycja?"
+    },
+    {
+      "id": 14,
+      "en": "Top or bottom?",
+      "pl": "Góra czy dół?"
+    },
+    {
+      "id": 15,
+      "en": "Have you ever been to a strip club?",
+      "pl": "Czy byłaś kiedyś w klubie ze striptizem?"
+    },
+    {
+      "id": 16,
+      "en": "Have you ever given a lap dance?",
+      "pl": "Czy kiedykolwiek tańczyłeś/aś na kolanach?"
+    },
+    {
+      "id": 17,
+      "en": "What conditions are necessary for hooking up on a first date?",
+      "pl": "Jakie warunki są konieczne do zaczepienia się na pierwszej randce?"
+    },
+    {
+      "id": 18,
+      "en": "What’s the hardest drug you’ve ever done?",
+      "pl": "Jaki jest najtrudniejszy narkotyk, który kiedykolwiek brałeś?"
+    },
+    {
+      "id": 19,
+      "en": "What hook-up scene from a movie or TV show would you like to recreate?",
+      "pl": "Jaką scenę z filmu lub programu telewizyjnego chciałbyś/chciałabyś odtworzyć?"
+    },
+    {
+      "id": 20,
+      "en": "How far are you willing to go with a cute stranger that you’ll never see again?",
+      "pl": "Jak daleko jesteś w stanie się posunąć z miłym nieznajomym, którego nigdy więcej nie zobaczysz?"
+    },
+    {
+      "id": 21,
+      "en": "Would you sleep with a celebrity if you met them at a bar? What celebrity is a no-brainer?",
+      "pl": "Czy przespałbyś się z kimś sławnym, gdybyś spotkał go w barze? Która gwiazda jest nie do odrzucenia?"
+    },
+    {
+      "id": 22,
+      "en": "If you could cheat and no one would ever, ever find out, would you?",
+      "pl": "Gdybyś mógł oszukiwać i nikt nigdy, przenigdy by się nie dowiedział, to czy byś to zrobił?"
+    },
+    {
+      "id": 23,
+      "en": "If you could hack into your partner’s email and they’d never know, would you?",
+      "pl": "Gdybyś mógł włamać się do poczty elektronicznej swojego partnera i nigdy by się o tym nie dowiedział, czy zrobiłbyś to?"
+    },
+    {
+      "id": 24,
+      "en": "Have you ever read your bae’s texts over their shoulder?",
+      "pl": "Czy kiedykolwiek czytałeś teksty swojego bae przez ich ramię?"
+    },
+    {
+      "id": 25,
+      "en": "If you could read all your partner’s texts with others, would you?",
+      "pl": "Gdybyś mógł czytać wszystkie teksty swojego partnera z innymi, czy byś to zrobił?"
+    },
+    {
+      "id": 26,
+      "en": "Do you secretly want the password for your bae’s phone?",
+      "pl": "Czy potajemnie chcesz hasło do telefonu swojego bae?"
+    },
+    {
+      "id": 27,
+      "en": "If you had to choose between going naked or having your thoughts appear in thought bubbles above your head for everyone to read, which would you choose?",
+      "pl": "Jeśli musiałbyś wybrać między pójściem nago lub posiadaniem swoich myśli pojawiających się w bańkach myślowych nad głową dla wszystkich do przeczytania, co byś wybrał?"
+    },
+    {
+      "id": 28,
+      "en": "When was the last time you peed in bed?",
+      "pl": "Kiedy ostatni raz sikałeś w łóżku?"
+    },
+    {
+      "id": 29,
+      "en": "Would you hook up with your high school crush today?",
+      "pl": "Czy umówiłbyś się dzisiaj ze swoją sympatią z liceum?"
+    }
+  ],
+  "Hard": [
+    {
+      "id": 0,
+      "en": "What’s your most embarrassing fantasy?",
+      "pl": "Jaka jest twoja najbardziej wstydliwa fantazja?"
+    },
+    {
+      "id": 1,
+      "en": "What kind of porn do you search for?",
+      "pl": "Jakiego rodzaju porno szukasz?"
+    },
+    {
+      "id": 2,
+      "en": "When watching porn, what makes you turn it off?",
+      "pl": "Kiedy oglądasz porno, co sprawia, że je wyłączasz?"
+    },
+    {
+      "id": 3,
+      "en": "Have you ever joined a hook-up app or any app associated with risky behavior?",
+      "pl": "Czy kiedykolwiek korzystałeś z aplikacji typu \"hook-up\" lub innych aplikacji związanych z ryzykownymi zachowaniami?"
+    },
+    {
+      "id": 4,
+      "en": "How many “toys” do you own?",
+      "pl": "Ile \"zabawek\" posiadasz?"
+    },
+    {
+      "id": 5,
+      "en": "What’s the best sex you’ve ever had?",
+      "pl": "Jaki jest najlepszy seks, jaki kiedykolwiek uprawiałeś?"
+    },
+    {
+      "id": 6,
+      "en": "What’s the weirdest role play you’ve ever done?",
+      "pl": "Jaka jest najdziwniejsza zabawa w odgrywanie ról, jaką kiedykolwiek uprawiałeś?"
+    },
+    {
+      "id": 7,
+      "en": "What’s the raunchiest dream you’ve ever had?",
+      "pl": "Jaki jest najbardziej wyuzdany sen, jaki kiedykolwiek miałeś?"
+    },
+    {
+      "id": 8,
+      "en": "What’s the landscaping like “down there?”",
+      "pl": "Jak wygląda krajobraz \"tam na dole\"?"
+    },
+    {
+      "id": 9,
+      "en": "What’s the dirtiest picture you’ve ever sent?",
+      "pl": "Jakie jest najbrudniejsze zdjęcie, które kiedykolwiek wysłałeś?"
+    },
+    {
+      "id": 10,
+      "en": "What’s the dirtiest text you’ve sent?",
+      "pl": "Jaki jest najbrudniejszy tekst, który wysłałeś?"
+    },
+    {
+      "id": 11,
+      "en": "Have you ever hooked up with someone you didn’t know?",
+      "pl": "Czy kiedykolwiek spiknąłeś się z kimś, kogo nie znałeś?"
+    },
+    {
+      "id": 12,
+      "en": "What’s the most outrageous thing you can remember doing while “under the influence?”",
+      "pl": "Jaka jest najbardziej skandaliczna rzecz, którą pamiętasz, że zrobiłeś będąc \"pod wpływem\"?"
+    },
+    {
+      "id": 13,
+      "en": "What is something “scandalous” and sex-related that you really want to try?",
+      "pl": "Co jest czymś \"skandalicznym\" i związanym z seksem, czego bardzo chciałbyś spróbować?"
+    },
+    {
+      "id": 14,
+      "en": "Are you more dominant or submissive?",
+      "pl": "Czy jesteś bardziej dominujący czy uległy?"
+    },
+    {
+      "id": 15,
+      "en": "If you were a sex worker, how much would each sex act cost?",
+      "pl": "Gdybyś była osobą świadczącą usługi seksualne, ile kosztowałby każdy akt seksualny?"
+    },
+    {
+      "id": 16,
+      "en": "Have you ever asked for a dirty pic?",
+      "pl": "Czy kiedykolwiek poprosiłaś o sprośne zdjęcie?"
+    },
+    {
+      "id": 17,
+      "en": "How do you initiate sex with your partner?",
+      "pl": "Jak inicjujesz seks ze swoim partnerem?"
+    },
+    {
+      "id": 18,
+      "en": "Would you ever film yourself “in the act?”",
+      "pl": "Czy kiedykolwiek sfilmowałbyś siebie \"na gorącym uczynku\"?"
+    },
+    {
+      "id": 19,
+      "en": "How likely are you to ever consider being a stripper? What about a porn star?",
+      "pl": "Jak bardzo prawdopodobne jest, że kiedykolwiek rozważyłabyś bycie striptizerką? A co z gwiazdą porno?"
+    },
+    {
+      "id": 20,
+      "en": "What’s the soonest you’ve ever had sex with someone after meeting them?",
+      "pl": "W jakim czasie od spotkania z kimś uprawiałeś z nim seks?"
+    },
+    {
+      "id": 21,
+      "en": "If you were going to write an erotic novel, what would it be about?",
+      "pl": "Gdybyś miała napisać powieść erotyczną, o czym by ona była?"
+    },
+    {
+      "id": 22,
+      "en": "What was the last thing you masturbated to?",
+      "pl": "Jaka była ostatnia rzecz, przy której się masturbowałeś?"
+    },
+    {
+      "id": 23,
+      "en": "If you could have sex with one person in this room, who would it be?",
+      "pl": "Gdybyś mógł uprawiać seks z jedną osobą w tym pokoju, kto by to był?"
+    },
+    {
+      "id": 24,
+      "en": "What’s your magic number now, and what do you wish it was?",
+      "pl": "Jaka jest teraz Twoja magiczna liczba, a jaka chciałbyś, żeby była?"
+    },
+    {
+      "id": 25,
+      "en": "What’s the weirdest thing that’s ever turned you on?",
+      "pl": "Jaka jest najdziwniejsza rzecz, która kiedykolwiek cię podnieciła?"
+    },
+    {
+      "id": 26,
+      "en": "Which sexual act are you best at?",
+      "pl": "W którym akcie seksualnym jesteś najlepszy?"
+    },
+    {
+      "id": 27,
+      "en": "How many sex toys do you own?",
+      "pl": "Ile seks zabawek posiadasz?"
+    },
+    {
+      "id": 28,
+      "en": "How many orgasms have you faked?",
+      "pl": "Ile orgazmów udawałeś?"
+    },
+    {
+      "id": 29,
+      "en": "What is your biggest sexual regret?",
+      "pl": "Czego najbardziej żałujesz w sferze seksualnej?"
+    },
+    {
+      "id": 30,
+      "en": "What’s the dirtiest sext you’ve ever sent?",
+      "pl": "Jaki jest najbrudniejszy sext, który kiedykolwiek wysłałeś?"
+    },
+    {
+      "id": 31,
+      "en": "Who’s the most scandalous person you’ve had sex with?",
+      "pl": "Kto jest najbardziej skandalizującą osobą, z którą uprawiałeś seks?"
+    },
+    {
+      "id": 32,
+      "en": "Have you ever slept with someone you met online?",
+      "pl": "Czy kiedykolwiek spałeś z kimś, kogo poznałeś online?"
+    },
+    {
+      "id": 33,
+      "en": "Have you ever been caught masturbating?",
+      "pl": "Czy kiedykolwiek zostałeś przyłapany na masturbacji?"
+    },
+    {
+      "id": 34,
+      "en": "What do you like to be called in bed?",
+      "pl": "Jak lubisz być nazywany w łóżku?"
+    },
+    {
+      "id": 35,
+      "en": "What movie always turns you on?",
+      "pl": "Jaki film zawsze cię podnieca?"
+    },
+    {
+      "id": 36,
+      "en": "What’s your favorite body part on a girl?",
+      "pl": "Jaka jest Twoja ulubiona część ciała u dziewczyny?"
+    },
+    {
+      "id": 37,
+      "en": "Describe the most embarrassing time you got turned on.",
+      "pl": "Opisz najbardziej żenujący moment, w którym się podnieciłeś."
+    },
+    {
+      "id": 38,
+      "en": "Have you ever thought about sleeping with the same sex?",
+      "pl": "Czy kiedykolwiek myślałeś o spaniu z osobą tej samej płci?"
+    },
+    {
+      "id": 39,
+      "en": "What is your strangest off-limits crush?",
+      "pl": "Jakie jest Twoje najdziwniejsze zauroczenie poza granicami kraju?"
+    },
+    {
+      "id": 40,
+      "en": "If you got to have a threesome with people in this room, who would you do it with and why?",
+      "pl": "Jeśli miałbyś mieć trójkąt z ludźmi w tym pokoju, z kim byś to zrobił i "
+    },
+    {
+      "id": 41,
+      "en": "Where is the weirdest place that you’ve ever masturbated?",
+      "pl": "Gdzie jest najdziwniejsze miejsce, w którym kiedykolwiek się masturbowałeś?"
+    },
+    {
+      "id": 42,
+      "en": "Describe your, “I’m getting laid tonight” outfit?",
+      "pl": "Opisz swój strój \"Dziś wieczorem zaliczam\"?"
+    },
+    {
+      "id": 43,
+      "en": "Have you ever slept with someone from work?",
+      "pl": "Czy kiedykolwiek spałeś z kimś z pracy?"
+    },
+    {
+      "id": 44,
+      "en": "What is more thrilling, makeup or angry sex?",
+      "pl": "Co jest bardziej ekscytujące, makijaż czy wściekły seks?"
+    },
+    {
+      "id": 45,
+      "en": "How many times a week do you touch yourself?",
+      "pl": "Ile razy w tygodniu się dotykasz?"
+    },
+    {
+      "id": 46,
+      "en": "Have you ever done IT at work?",
+      "pl": "Czy kiedykolwiek uprawiałeś \"TO\" w pracy?"
+    },
+    {
+      "id": 47,
+      "en": "Do you like telling your partner what to do in bed, or do you prefer to be told what to do?",
+      "pl": "Czy lubisz mówić swojemu partnerowi, co ma robić w łóżku, czy wolisz, żeby to on mówił Ci, co masz robić?"
+    },
+    {
+      "id": 48,
+      "en": "Have you ever walked in on your parents doing it?",
+      "pl": "Czy kiedykolwiek byłeś świadkiem, jak twoi rodzice to robią?"
+    }
+  ],
+  "Random": [
+    {
+      "id": 0,
+      "en": "What was the last thing you searched for on your phone?",
+      "pl": "Jaka była ostatnia rzecz, której szukałeś na swoim telefonie?"
+    },
+    {
+      "id": 1,
+      "en": "Have you ever tasted a booger?",
+      "pl": "Czy próbowałeś kiedyś gluta?"
+    },
+    {
+      "id": 2,
+      "en": "What’s the first thing you would do if you woke up one day as the opposite sex?",
+      "pl": "Jaka jest pierwsza rzecz, którą byś zrobił, gdybyś pewnego dnia obudził się jako osoba płci przeciwnej?"
+    },
+    {
+      "id": 3,
+      "en": "Who do you think is the worst dressed person in this room?",
+      "pl": "Jak myślisz, kto jest najgorzej ubraną osobą w tym pokoju?"
+    },
+    {
+      "id": 4,
+      "en": "What are some things you think about when sitting on the toilet?",
+      "pl": "O jakich rzeczach myślisz siedząc na toalecie?"
+    },
+    {
+      "id": 5,
+      "en": "Have you ever practiced kissing in a mirror?",
+      "pl": "Czy kiedykolwiek ćwiczyłeś całowanie się w lustrze?"
+    },
+    {
+      "id": 6,
+      "en": "Have you ever had a wardrobe malfunction?",
+      "pl": "Czy kiedykolwiek miałeś/aś awarię garderoby?"
+    },
+    {
+      "id": 7,
+      "en": "Do you pick your nose?",
+      "pl": "Czy dłubiesz w nosie?"
+    },
+    {
+      "id": 8,
+      "en": "You’re in a public restroom and just went number two, then you realized your stall has no toilet paper. What do you do?",
+      "pl": "Jesteś w publicznej toalecie i właśnie poszedłeś do toalety numer dwa, a potem zdałeś sobie sprawę, że w twojej kabinie nie ma papieru toaletowego. Co robisz?"
+    },
+    {
+      "id": 9,
+      "en": "Where’s your favorite place to fart in public?",
+      "pl": "Gdzie jest twoje ulubione miejsce do pierdzenia w miejscu publicznym?"
+    },
+    {
+      "id": 10,
+      "en": "What’s the strangest thing someone would find in your web search history?",
+      "pl": "Jaka jest najdziwniejsza rzecz, którą ktoś mógłby znaleźć w Twojej historii wyszukiwania w Internecie?"
+    },
+    {
+      "id": 11,
+      "en": "Do you ever talk on the phone while you’re taking a poop?",
+      "pl": "Czy zdarza Ci się rozmawiać przez telefon podczas robienia kupy?"
+    },
+    {
+      "id": 12,
+      "en": "What color undergarments do you have on right now?",
+      "pl": "Jakiego koloru bieliznę masz teraz na sobie?"
+    },
+    {
+      "id": 13,
+      "en": "If you lost one day of your life every time you said a swear word, would you stop?",
+      "pl": "Gdybyś stracił jeden dzień życia za każdym razem, gdy powiedziałeś przekleństwo, czy przestałbyś?"
+    },
+    {
+      "id": 14,
+      "en": "If someone offered you $1 million to break up with your current partner, would you?",
+      "pl": "Gdyby ktoś zaoferował Ci 1 milion dolarów za zerwanie z obecnym partnerem, czy zerwałbyś?"
+    },
+    {
+      "id": 15,
+      "en": "After you’ve dropped a piece of food, what’s the longest time you’ve left it on the ground and then ate it?",
+      "pl": "Po upuszczeniu kawałka jedzenia, jaki jest najdłuższy czas, w którym zostawiłeś go na ziemi, a następnie zjadłeś?"
+    },
+    {
+      "id": 16,
+      "en": "Have you ever eaten while on the toilet?",
+      "pl": "Czy kiedykolwiek jadłeś będąc w toalecie?"
+    },
+    {
+      "id": 17,
+      "en": "Have you ever farted around the office and blamed it on someone else?",
+      "pl": "Czy kiedykolwiek pierdnąłeś w biurze i zrzuciłeś winę na kogoś innego?"
+    },
+    {
+      "id": 18,
+      "en": "Have you ever farted on an airplane?",
+      "pl": "Czy kiedykolwiek pierdnąłeś w samolocie?"
+    },
+    {
+      "id": 19,
+      "en": "Has anyone besides you and your partner found your sex toys?",
+      "pl": "Czy ktoś poza tobą i twoim partnerem znalazł twoje zabawki seksualne?"
+    },
+    {
+      "id": 20,
+      "en": "Are you a virgin?",
+      "pl": "Czy jesteś prawiczkiem?"
+    },
+    {
+      "id": 21,
+      "en": "Can you guess how many queer people are in this room?",
+      "pl": "Czy jesteś w stanie zgadnąć ile quuer ludzi jest w tym pomieszczeniu?"
+    },
+    {
+      "id": 22,
+      "en": "Have you ever fantasized about your friend?",
+      "pl": "Czy kiedykolwiek fantazjowałeś o swoim przyjacielu?"
+    },
+    {
+      "id": 23,
+      "en": "Have you ever fantasized about someone from your family?",
+      "pl": "Czy kiedykolwiek fantazjowałeś o kimś ze swojej rodziny?"
+    },
+    {
+      "id": 24,
+      "en": "After what time do you think it's appropriate to have sexual intercourse?",
+      "pl": "Po jakim czasie uważasz za stosowne odbyć stosunek płciowego?"
+    },
+    {
+      "id": 25,
+      "en": "What do you consider a cheating?",
+      "pl": "Co uważasz za zdradę?"
+    },
+    {
+      "id": 26,
+      "en": "what penis size do you consider small, medium and large?",
+      "pl": "Jaki rozmiar penisa uważasz za mały, średni oraz duży?"
+    },
+    {
+      "id": 27,
+      "en": "What boobs size do you consider small, medium and large?",
+      "pl": "Jaki rozmiar piersi uważasz za mały, średni oraz duży?"
+    },
+    {
+      "id": 28,
+      "en": "What was the most fucked up thing you were masturbating to?",
+      "pl": "Jaka była najbardziej popieprzona rzecz, do której się masturbowałeś?"
+    },
+    {
+      "id": 29,
+      "en": "Would you like to be in FWB relationship?",
+      "pl": "Czy chciałbyś być w związku FWB?"
+    },
+    {
+      "id": 30,
+      "en": "Did you use to wipe your butt while standing?",
+      "pl": "Czy podcierałeś się na stojąco?"
+    },
+    {
+      "id": 31,
+      "en": "Do you pee in the shower or in the bathtub?",
+      "pl": "Czy sikasz pod prysznicem lub w wannie?"
+    },
+    {
+      "id": 32,
+      "en": "Where would you like to live the most if you were not bound by a language and property barrier?",
+      "pl": "Gdzie byś chciał najbardziej zamieszkać gdyby nie zobowiązywała ciebie bariera językowa i majątkowa?"
+    },
+    {
+      "id": 33,
+      "en": "What's your secret skill that you don't boast about?",
+      "pl": "Jaka jest twoja sekretna umiejętność, którą się nie chwalisz?"
+    }
+  ]
+}

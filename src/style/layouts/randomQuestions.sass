@@ -1,0 +1,179 @@
+.randomQuestions
+  width: inherit
+  height: inherit
+
+
+
+  +e('content')
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    height: 100%
+    +m('Easy')
+      background: #C8FDCD
+    +m('Medium')
+      background: #FDE8C8
+    +m('Hard')
+      background: #FDC8C8
+    +m('Random')
+      background: #D0C8FD
+
+
+
+  +e('icon')
+    position: absolute
+    bottom: 60px
+    right: 30px
+    +min(768)
+      right: 60px
+
+
+
+  +e('title')
+    user-select: none
+    font-family: $font1
+    font-style: normal
+    font-weight: bold
+    font-size: 38px
+    letter-spacing: -0.05em
+    margin-bottom: 60px
+    +min(375)
+      font-size: 40px
+    +min(500)
+      font-size: 50px
+    +min(768)
+      font-size: 80px
+    +min(1024)
+      font-size: 100px
+    +min(1200)
+      font-size: 120px
+    +m('Easy')
+      color: #5BBD65
+    +m('Medium')
+      color: #D08617
+    +m('Hard')
+      color: #CA5454
+    +m('Random')
+      color: #7063BC 
+  +e('description')
+    user-select: none
+    font-family: $font2
+    font-style: normal
+    font-weight: 500
+    font-size: 17px
+    line-height: 25.5px
+    text-align: center
+    color: #333333
+    width: 90%
+    +min(375)
+      font-size: 20px
+      line-height: 30px
+    +min(500)
+      width: 80%
+      font-size: 24px
+    +min(768)
+      width: 638px
+      font-size: 28px
+      line-height: 35px
+    +min(1024)
+      width: 798px
+      font-size: 35px
+      line-height: 52.5px
+
+
+
+  +e('End-title')
+    user-select: none
+    font-family: $font1
+    font-style: normal
+    font-weight: bold
+    font-size: 30px
+    letter-spacing: -0.05em
+    color: #333333
+    margin-bottom: 30px
+    +min(375)
+      font-size: 40px
+    +min(550)
+      font-size: 56px
+    +min(768)
+      font-size: 76px
+    +min(1024)
+      font-size: 90px
+    +min(1200)
+      font-size: 105px
+  +e('End-description')
+    user-select: none
+    font-family: $font2
+    font-style: normal
+    font-weight: 500
+    font-size: 20px
+    line-height: 30px
+    text-align: center
+    color: #333333
+    +min(375)
+      font-size: 27px
+      line-height: 40px
+    +min(768)
+      font-size: 35px
+      line-height: 52.5px
+
+
+
+@media (max-height: 649px)
+  .randomQuestions
+    +e('icon')
+      bottom: 30px
+
+@media (max-height: 649px) and (min-width: 768px) and (max-width: 1023px)
+  .randomQuestions
+    +e('title')
+      font-size: 50px
+    +e('description')
+      font-size: 24px
+    +e('End-title')
+      font-size: 56px
+    +e('End-description')
+      font-size: 27px
+      line-height: 40px
+
+@media (max-height: 749px) and (min-width: 1024px)
+  .randomQuestions
+    +e('title')
+      font-size: 80px
+    +e('description')
+      font-size: 28px
+      line-height: 35px
+    +e('End-title')
+      font-size: 76px
+
+@media (max-height: 649px) and (min-width: 1024px)
+  .randomQuestions
+    +e('title')
+      font-size: 50px
+    +e('description')
+      font-size: 24px
+    +e('End-title')
+      font-size: 56px
+
+@media (max-height: 849px) and (min-width: 1200px)
+  .randomQuestions
+    +e('title')
+      font-size: 100px
+    +e('End-title')
+      font-size: 90px
+
+@media (max-height: 749px) and (min-width: 1200px)
+  .randomQuestions
+    +e('title')
+      font-size: 80px
+    +e('End-title')
+      font-size: 76px
+
+
+@media (max-height: 649px) and (min-width: 1200px)
+  .randomQuestions
+    +e('title')
+      font-size: 50px
+    +e('End-title')
+      font-size: 56px

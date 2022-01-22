@@ -1,0 +1,43 @@
+.header
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 30px 30px 0
+  +min(768)
+    padding: 60px 60px 0
+
+  +e('close')
+    width: 28px
+    height: 28px
+    cursor: pointer
+    +min(768)
+      width: 35px
+      height: 35px
+    +min(1024)
+      width: 40px
+      height: 40px
+  +e('info')
+    width: 28px
+    height: 28px
+    cursor: pointer
+    +min(768)
+      width: 35px
+      height: 35px
+    +min(1024)
+      width: 40px
+      height: 40px
+  +e('logo')
+    font-family: $font1
+    font-style: normal
+    font-weight: bold
+    font-size: 22px
+    letter-spacing: -0.05em
+    color: #111
+    +min(768)
+      font-size: 28px
+    +min(1024)
+      font-size: 32px
