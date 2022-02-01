@@ -17,7 +17,7 @@ const shuffleQuestions = inputObject => {
   let array = []
 
   for(const key in inputObject){
-    inputObject[key].map(e => e.difficulty = key)
+    inputObject[key].map(el => el.difficulty = key)
 
     array = [...array, ...inputObject[key]]
   }
