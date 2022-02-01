@@ -1,8 +1,12 @@
-.randomQuestions
+.glide__slides
+  width: 100%
+  height: 100vh
+  white-space: normal
+  
+.game
   width: inherit
   height: inherit
-
-
+  position: relative
 
   +e('content')
     display: flex
@@ -22,6 +26,7 @@
 
 
   +e('icon')
+    user-select: none
     position: absolute
     bottom: 60px
     right: 30px
@@ -102,21 +107,6 @@
       font-size: 90px
     +min(1200)
       font-size: 105px
-  +e('End-description')
-    user-select: none
-    font-family: $font2
-    font-style: normal
-    font-weight: 500
-    font-size: 20px
-    line-height: 30px
-    text-align: center
-    color: #333333
-    +min(375)
-      font-size: 27px
-      line-height: 40px
-    +min(768)
-      font-size: 35px
-      line-height: 52.5px
 
 
 
@@ -133,9 +123,6 @@
       font-size: 24px
     +e('End-title')
       font-size: 56px
-    +e('End-description')
-      font-size: 27px
-      line-height: 40px
 
 @media (max-height: 749px) and (min-width: 1024px)
   .randomQuestions

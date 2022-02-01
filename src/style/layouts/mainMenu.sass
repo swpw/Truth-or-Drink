@@ -56,8 +56,6 @@
     flex-direction: column
     align-items: center
     margin-bottom: 60px
-    +min(768)
-      margin-bottom: 90px
   +e('title')
     font-family: $font1
     font-style: normal
@@ -117,18 +115,11 @@
       
 
   
-  +e('sectionBot')
-    display: flex
-    flex-direction: column
-    align-items: center
-    +min(1024)
-      flex-direction: row
   +e('button')
-    width: 270px
-    height: 60px
+    padding: 12px 35px
     background: #111111
     box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25)
-    border-radius: 5px
+    border-radius: 10px
     border: none
     font-style: normal
     font-weight: 900
@@ -136,24 +127,6 @@
     text-align: center
     color: #FFFFFF
     cursor: pointer
-    &:first-of-type
-      margin-bottom: 50px
-      +min(768)
-        margin-bottom: 30px
-      +min(1024)
-        margin-bottom: 0
-        margin-right: 50px
-      +min(1200)
-        margin-right: 60px
-    +min(768)
-      width: auto
-      padding: 0 25px
-    +min(1024)
-      height: 44px
-      font-size: 20px
-    +min(1600)
-      height: 52px
-      font-size: 27px
 
 
 
@@ -161,27 +134,15 @@
   .mainMenu
     +e('title')
       margin-bottom: 45px
-    +e('sectionTop')
-      margin-bottom: 45px
     +e('button')
-      height: 44px
-      width: 250px
       font-size: 20px
-      &:first-of-type
-        margin-bottom: 30px
 
 @media (max-height: 649px) and (min-width: 375px) and (max-width: 767px)
   .mainMenu
     +e('title')
       margin-bottom: 45px
-    +e('sectionTop')
-      margin-bottom: 45px
     +e('button')
-      height: 44px
-      width: 250px
       font-size: 20px
-      &:first-of-type
-        margin-bottom: 30px
 
 @media (max-height: 570px) and (min-width: 375px) and (max-width: 767px)
   .mainMenu
@@ -193,27 +154,15 @@
     +e('paragraphDescription')
       font-size: 15px
       line-height: 23px
-    +e('sectionTop')
-      margin-bottom: 45px
     +e('button')
-      height: 44px
-      width: 250px
       font-size: 20px
-      &:first-of-type
-        margin-bottom: 30px
 
 @media (max-height: 699px) and (min-width: 768px) and (max-width: 1023px)
   .mainMenu
     +e('title')
       margin-bottom: 45px
-    +e('sectionTop')
-      margin-bottom: 45px
     +e('button')
-      height: 44px
-      width: 250px
       font-size: 20px
-      &:first-of-type
-        margin-bottom: 30px
 
 @media (max-height: 599px) and (min-width: 768px) and (max-width: 1023px)
   .mainMenu
@@ -225,21 +174,15 @@
     +e('paragraphDescription')
       font-size: 15px
       line-height: 23px
-    +e('sectionTop')
-      margin-bottom: 45px
     +e('button')
-      height: 44px
-      width: 250px
       font-size: 20px
-      &:first-of-type
-        margin-bottom: 30px
 
 @media (max-height: 699px) and (min-width: 1024px) and (max-width: 1199px)
   .mainMenu
     +e('title')
       margin-bottom: 60px
-    +e('sectionTop')
-      margin-bottom: 60px
+    +e('button')
+      font-size: 20px
 
 @media (max-height: 599px) and (min-width: 1024px) and (max-width: 1199px)
   .mainMenu
@@ -251,15 +194,15 @@
     +e('paragraphDescription')
       font-size: 17px
       line-height: 25px
-    +e('sectionTop')
-      margin-bottom: 45px
+    +e('button')
+      font-size: 20px
 
 @media (max-height: 699px) and (min-width: 1200px) and (max-width: 1599px)
   .mainMenu
     +e('title')
       margin-bottom: 60px
-    +e('sectionTop')
-      margin-bottom: 60px
+    +e('button')
+      font-size: 20px
 
 @media (max-height: 599px) and (min-width: 1200px) and (max-width: 1599px)
   .mainMenu
@@ -268,8 +211,8 @@
       font-size: 80px
     +e('paragraphCatchphrase')
       font-size: 35px
-    +e('sectionTop')
-      margin-bottom: 45px
+    +e('button')
+      font-size: 20px
 
 @media (max-height: 749px) and (min-width: 1600px)
   .mainMenu
@@ -278,15 +221,14 @@
     +e('paragraphCatchphrase')
       font-size: 40px
     +e('button')
-      height: 44px
       font-size: 20px
 
 @media (max-height: 699px) and (min-width: 1600px)
   .mainMenu
     +e('title')
       margin-bottom: 60px
-    +e('sectionTop')
-      margin-bottom: 60px
+    +e('button')
+      font-size: 20px
 
 @media (max-height: 649px) and (min-width: 1600px)
   .mainMenu
@@ -302,5 +244,5 @@
   .mainMenu
     +e('title')
       margin-bottom: 45px
-    +e('sectionTop')
-      margin-bottom: 45px
+    +e('button')
+      font-size: 20px
